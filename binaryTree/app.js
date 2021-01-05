@@ -236,6 +236,7 @@ class SBN {
         }
     }
 
+    // remove node
     remove(data){
         let node = this.root;
         if(node === null){
